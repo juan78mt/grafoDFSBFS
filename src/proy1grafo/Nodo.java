@@ -11,14 +11,19 @@ package proy1grafo;
  * @author labcic
  */
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 
 public class Nodo
 {
     public int id;
+    public char Nombre;
+    public char datos;
+    //coordenadas para metodo geometrico
+    public float x;
+    public float y;
+    //Inicialmente ningun nodo ha sido visitado
+    //public boolean visitado = false;
 
     Nodo(int id,float x, float y ) {
         this.id = id;
@@ -34,15 +39,6 @@ public class Nodo
         this.id = id;
     }
     
-    public char Nombre;
-    public char datos;
-    
-    public float x;
-    public float y;
-
- 
-    
-  
 
     public void setX(float x) {
         this.x = x;

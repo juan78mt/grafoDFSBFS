@@ -11,10 +11,8 @@ package proy1grafo;
  * @author labcic
  */
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 
 public class Arista 
 {
